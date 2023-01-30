@@ -1,0 +1,451 @@
+:root{
+    --main-color:#be9c79;
+    --black:#333;
+    --white:#fff;
+    --ligh-tcolor:#666;
+    --border:.2rem solid var(var(--black));
+    --box-shadow:.5rem 1rem rgba(0,0,0,.1);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:6rem;
+}
+section{
+
+    padding: 3rem 2rem;
+    margin: 0% auto;
+    
+}
+.header{
+    position: sticky;
+    top:0; left: 0; right:0;
+    background-color: var(--white);
+   
+
+ }
+ 
+ 
+ .flex{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding:1rem 2rem;
+
+    
+ }
+ 
+ .header .flex .logo img{
+    height: 60px;
+ }
+ 
+ .header .flex .navbar a{
+    text-transform: uppercase;
+    margin-left: 2rem;
+    font-size: 25px;
+    color:var(--black);
+ }
+ 
+ .header .flex .navbar a:hover{
+    text-decoration: underline;
+    color:var(--main-color);
+ }
+ 
+ #menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    color:var(--black);
+    cursor: pointer;
+ }
+ 
+ .home-bg{
+    background-image:url("images/home-bg.jpg");
+    min-height:70rem;
+     background-size:cover;
+    background-position: center;
+    
+    
+   
+ }
+ 
+ .home-bg .home{
+    display: flex;
+    align-items: center;
+ }
+ 
+ .home-bg .home .content{
+    width: 50rem;
+    text-align: center;
+    margin-top: 25rem;
+ }
+ 
+ .home-bg .home .content h3{
+    font-size: 50px;
+    color:var(--black);
+    font-family: 'Merienda One', cursive;
+ }
+ 
+ .home-bg .home .content p{
+    padding:1rem 0;
+    font-size: 20px;
+    color:var(--black);
+    line-height: 2;
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    color: #fff;
+ }
+ .btn:hover{
+    background-color: var(--black);
+ }
+
+
+#menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.about{
+    
+    
+    height: 750px;
+}
+.tnj{
+  
+  width: 20cm;
+  height:6cm;
+
+}
+.jilla{
+    margin-bottom: 5px;
+  margin-left: 25cm;
+}
+
+.jilla h3{
+   
+    font-size: 50px;
+    width: 14cm;
+}
+    .jilla p{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+.facility{
+
+    height: 750px;
+  
+}
+.facility .purple{
+    margin-top: 15%;
+  justify-content:space-between;
+  font-size: 20px;
+  display: flex;
+   gap: 1rem;
+   margin-left: 120px;
+    
+}
+.facility .purple p{
+    font-size: 15px;
+}
+.facility .purple img{
+    height: 16rem;
+}
+.facility .purple h3{
+    margin-left: 50px;
+}
+.purple .lorry h3{
+    margin-left: 6px;
+}
+.ronaldo{
+   
+   
+    
+    height: 4rem;
+    margin-left: 16cm;
+    margin-top: 10px;}
+
+    .ronaldo h1{
+        margin-top: 20px;
+       
+        font-size: 55px;
+        font-weight: bolder;
+        color: black;
+       
+      height: 4rem;
+      margin-left: 1cm;
+         
+    }
+
+
+    
+        
+
+
+
+.menu{
+    
+    height: 750px;
+       
+}
+    .raina{
+      
+        width: 5cm;
+        height: 40px;
+      margin-left: 15cm;
+      margin-bottom: 15%;
+    }
+    .raina h1{
+      font-size: 40px;
+        width: 15cm;
+        height: 20px;
+       margin-left:45px;
+      margin-top:20px;
+    }
+    .menu .jp{
+        display: flex;
+        gap: 20rem;
+        margin-top: 10%;
+        margin-left: 240px;
+        
+    }
+    .menu .jp img{
+        height: 20rem;
+        
+    }
+    .menu .jp h3{
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 28px;
+    } 
+    .jp .dhoni h3{
+        margin-left: 50px;
+    }
+    .jp .rohit h3{
+        margin-left: 50px;
+    }
+ 
+    .menu .gp{
+        display: flex;
+        gap: 20rem;
+        margin-top: 3%;
+        margin-left: 240px;
+    }
+    .menu .gp img{
+        height: 20rem;
+        
+    }
+
+    .menu .gp h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .gp .raidu h3{
+        margin-left: 30px;
+    }
+    .gp .jadeja h3{
+        margin-left: 4px;
+    }
+
+    .gallery{
+      
+        height: 750px;
+           
+    }
+        .raina1{
+          
+        margin-top: 5%;
+            height: 40px;
+            margin-left: 15cm;
+        }
+        .raina1 h1{
+         
+            
+            height: 20px;
+            font-size: 40px;
+            margin-top: 20px;
+            margin-left: 70px;
+        
+        }
+        .gallery .bp {
+        display: flex;
+        gap: 2rem;
+     
+        margin-top: 10%;
+        margin-left: 200px;
+        }
+        .gallery .bp img{
+            height: 240px;
+        }
+      .bp .rohit1{
+        margin-left: 50px;
+      }
+      .bp .dhoni1{
+        margin-left: 50px;
+      }
+        .gallery .cp {
+            display: flex;
+            gap: 2rem;
+            margin-top: 60px;
+            margin-left: 200px;
+        }
+        
+        .gallery .cp img{
+            height: 230px;
+        }
+        .cp .jadeja1{
+            margin-left: 50px;
+          }
+        .cp .raidu1{
+            margin-left: 50px;
+          }
+          
+        
+        .team{   
+            height: 750px;
+        }
+        .raina2 {
+            margin-left: 65rem;
+            margin-top: 10px;
+        }
+        .raina2 h1{
+            font-size: 40px;
+            margin-left: 90px;
+            
+        }
+        .ep{
+            display: flex;
+            margin-top: 3%;
+            gap: 14rem;
+            margin-left: 240px;
+            padding-bottom: 25px;
+        }
+        .ep img{
+            height: 27rem;
+          
+            
+        }
+        .fp{
+            display: flex;
+            gap: 14rem;
+            margin-left: 240px;
+        }
+.fp img{ 
+    height: 27rem;}
+
+            .contact{
+              
+                height: 750px;
+                
+            }
+         .contact   .row{
+            margin-bottom: 130px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap:2rem;
+            }
+            .contact .row .image img{
+               
+                height:80rem;         
+            }
+            .contact .row form{
+                flex: 1 1 30rem;
+               border:2px solid black;
+                padding: 2rem;
+                text-align: center;
+               
+
+            }
+            .contact .row form h3{
+                font-size: 20px;
+                margin-bottom: 1rem;
+                color: var(--black);
+            }
+            .contact .row form .box{
+                width: 100%;
+                padding: 1.8rem;
+                font-size: 1.8rem;
+                color: var(--black);
+                border: var(--border);
+                margin: 1rem;
+            }
+            .contact .ind h3{
+                font-size: 30px;
+                margin-top: 1rem;
+                margin-left: 76rem;
+            }
+            .contact .ind img{
+                font-size: 30px;
+            
+                margin-left: 65rem;
+            }
+        .footer .box-container .box{
+            text-align: center;
+            display:inline-flex;
+            margin-left: 9rem;
+            margin-top: 80px;
+
+        }
+        .footer .box-container .box i{
+            font-size: 30px;
+            line-height: 6rem;
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+            color: var(--main-color);
+            margin-top: 23rem;
+        }
+        .footer .box-container .box h3{
+            font-size: 20px;
+            margin-top: 25rem;
+        }
+        .footer .box-container .box p{
+        font-size: 20px;
+        margin-top: 25rem;
+
+        }
+       
+
+        .credit{
+            font-size: 30px;
+        padding-top: 2rem;
+            margin-top: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50rem;
+        }
+          .line{
+            border: 2px solid black;
+            width: 80%;
+            margin-top:70px;
+            margin-left: 10%;
+
+
+        }
+       
+        
